@@ -18,5 +18,5 @@ function deepestChild() {
     var prev = current
     current = current.children
   }
-  return current
+  return prev.innerHTML
 }
